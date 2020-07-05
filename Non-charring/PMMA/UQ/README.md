@@ -4,33 +4,44 @@
 
 * Heating Rate: 10 K/min
 * Temperature program
-  - Initial temperature 323.15 K
-  - Isotherm: 60s (hold at 323.15K for 60s)  
+  - Initial Temperature: 323.15 K
+  - Initial Isotherm: 60 s (hold at 323.15 K for 60 s)  
   - Maximum Temperature 1223.15 K
+  - Final Isotherm: None
 * Sample mass: 5.1-5.6 mg
 * Sample geometry: powdered
 * Calibration type: Annual internal mass calibration  
-* Crucible type: 6.8? / 85 µL, Al2O3 crucibles  
+* Crucible
+  - Type: Al2O3
+  - Volume: 85 ÂµL
+  - Diameter: 6.8 mm [?]
+  - Mass: None
+  - Lid: None
+  - Note: None
 * Carrier Gas
-  - Air or Nitrogen
-  - Flow rate = 150 ml/min
+  - Type: Air, Nitrogen
+  - Flow rate: 150 ml/min
+  - Note: None
+* Instrument
+  - Type: None [?]
+  - Note: None
 
 ###### Tests Conducted in Air (flow rate = 150 ml/min)  
 
  
 | Test Name | Initial Sample Mass (mg) | 
 | --------- | :------------------------:|
-|UQ\_TGA\_Air\_1 | 5.1|  
-|UQ\_TGA\_Air\_2 | 5.2|  
-|UQ\_TGA\_Air\_3 | 5.4|  
+|UQ\_TGA\_O2-21\_10K\_1 | 5.1|  
+|UQ\_TGA\_O2-21\_10K\_2 | 5.2|  
+|UQ\_TGA\_O2-21\_10K\_3 | 5.4|  
 
 ###### Tests Conducted in Nitrogen (flow rate = 150 ml/min)  
 
 |Test Name | Initial Sample Mass (mg)|  
 |----------|:------:|  
-|UQ\_TGA\_N2\_1 | 5.3|  
-|UQ\_TGA\_N2\_2 | 5.1|  
-|UQ\_TGA\_N2\_3 | 5.6|  
+|UQ\_TGA\_N2\_10K\_1 | 5.3|  
+|UQ\_TGA\_N2\_10K\_2 | 5.1|  
+|UQ\_TGA\_N2\_10K\_3 | 5.6|  
 
 ### Experimental Conditions, Cone calorimeter
 * Extraction flow rate: 24L/s

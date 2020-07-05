@@ -5,23 +5,34 @@ A TA Instruments SDT Q600 (V20.9 Build 20) was used to conduct Simultaneous Ther
 
 * Heating Rate: 10 K/min
 * Temperature program
-  - Initial temperature 300 K
-  - Isotherm: None [?]
-  - Maximum Temperature 800 K
+  - Initial Temperature: 300 K
+  - Initial Isotherm: None [?]
+  - Maximum Temperature: 800 K
+  - Final Isotherm: None
 * Sample mass: ~4 mg
 * Sample geometry: powdered
 * Calibration type: Annual internal mass calibration  [?]
-* Crucible type: 6.8? / 85 µL, Al2O3 crucibles        [?]
+* Crucible
+  - Type: Al2O3 [?]
+  - Volume: 85 ÂµL [?]
+  - Diameter: 6.8 mm [?]
+  - Mass: None
+  - Lid: None
+  - Note: None
 * Carrier Gas
-  - Air or Nitrogen
-  - Flow rate = 100 ml/min
+  - Type: Air, Nitrogen
+  - Flow rate: 100 ml/min
+  - Note: None
+* Instrument
+  - Type: TA Instruments SDT Q600 (V20.9 Build 20)
+  - Note: Simultaneous Thermal Analysis (TGA + DSC), measurement data presented as two separated files
  
 | Test Name | O2 vol % |  Initial Sample Mass (mg) | 
 | --------- | :----: | :------------------------:|
-|HKPolyU\_STA\_N2\_1 |  0  | 4.104|  
-|HKPolyU\_STA\_N2\_2 |  0  | 4.1896|  
-|HKPolyU\_STA\_Air\_1 | 21? |3.9309|  
-|HKPolyU\_STA\_Air\_2 | 21? |3.8808|  
+|HKPolyU\_STA\_N2\_10K\_1 |  0  | 4.104|  
+|HKPolyU\_STA\_N2\_10K\_2 |  0  | 4.1896|  
+|HKPolyU\_STA\_O2-21\_10K\_1 | 21? |3.9309|  
+|HKPolyU\_STA\_O2-21\_10K\_2 | 21? |3.8808|  
 
 
 ### Experimental Conditions, Cone calorimeter

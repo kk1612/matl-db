@@ -5,27 +5,38 @@ A Netzsch F3 Jupiter was used to conduct Simultaneous Thermal Analysis (TGA + DS
 
 * Heating Rate: 10 K/min
 * Temperature program
-  - Initial temperature 303 K
-  - Isotherm: None
-  - Maximum Temperature 923 K
+  - Initial Temperature: 303 K
+  - Initial Isotherm: None
+  - Maximum Temperature: 923 K
+  - Final Isotherm: None
 * Sample mass: 2-6 mg
 * Sample geometry: powdered
 * Calibration type: Before each experiment, a baseline test was performed using an empty crucible. Internal mass calibration are performed before each experimental campaigns. [Heat/Temperature calibration?]
-* Crucible type: 6.8mm / 85 µL, Al2O3 crucibles [Not Pt or Al for DSC?]
+* Crucible 
+  - Type: Al2O3 [Not Pt or Al for DSC?]
+  - Volume: 85 µL
+  - Diameter: 6.8 mm
+  - Mass: None
+  - Lid: None
+  - Note: None
 * Carrier Gas
-  - Air (21% O2), 10.5% O2, or Pure Nitrogen (0% O2)
-  - Flow rate = 60  ml/min  
+  - Type: Air, low oxygen (10.5%), Nitrogen
+  - Flow rate: 60  ml/min
+  - Note: Air (21% O2), 10.5% O2, or Pure Nitrogen (0% O2)
+* Instrument
+  - Type: Netzsch F3 Jupiter
+  - Note: Simultaneous Thermal Analysis (TGA + DSC), measurement data presented as two separated files
 
 | Test Name | O2 volume % |  Initial Sample Mass (mg) | 
 | --------- | :---------: | :------------------------: |
-|GIDAZE+\_STA\_N2\_1 | 0 | 2.015|  
-|GIDAZE+\_STA\_N2\_2 | 0 | 1.978|  
-|GIDAZE+\_STA\_O2\_10\_1 | 10.5 | 1.976|  
-|GIDAZE+\_STA\_O2\_10\_2 | 10.5 | 1.993|  
-|GIDAZE+\_STA\_O2\_21\_1 | 21 | 2.04| 
-|GIDAZE+\_STA\_O2\_21\_2 | 21 | 2.039|  
-|GIDAZE+\_STA\_O2\_21\_3 | 21 | 6.044|  
-|GIDAZE+\_STA\_O2\_21\_4 | 21 | 6.019|   
+|GIDAZE+\_STA\_N2\_10K\_1 | 0 | 2.015|  
+|GIDAZE+\_STA\_N2\_10K\_2 | 0 | 1.978|  
+|GIDAZE+\_STA\_O2\-10\_10K\_1 | 10.5 | 1.976|  
+|GIDAZE+\_STA\_O2\-10\_10K\_2 | 10.5 | 1.993|  
+|GIDAZE+\_STA\_O2\-21\_10K\_1 | 21 | 2.04| 
+|GIDAZE+\_STA\_O2\-21\_10K\_2 | 21 | 2.039|  
+|GIDAZE+\_STA\_O2\-21\_10K\_3 | 21 | 6.044|  
+|GIDAZE+\_STA\_O2\-21\_10K\_4 | 21 | 6.019|   
 
 
 ### Experimental Conditions: Cone Calorimeter
@@ -45,10 +56,10 @@ Cone calorimeter tests were conducted using a configuration similar to the Torer
 ###### Test Heating Conditions  
 |Test Name | Heat Flux (kW/m2)| Heater Temperature (K) 
 |----------|:------:| :---: |
-|GIDAZE+_Cone_25_1| 25 | 589 |
-|GIDAZE+_Cone_25_2| 25 | 589 |
-|GIDAZE+_Cone_65_1| 65 | 844 |
-|GIDAZE+_Cone_65_2| 65 | 844 |
+|GIDAZE+_Cone_25kW_1| 25 | 589 |
+|GIDAZE+_Cone_25kW_2| 25 | 589 |
+|GIDAZE+_Cone_65kW_1| 65 | 844 |
+|GIDAZE+_Cone_65kW_2| 65 | 844 |
 
 ### Experimental Conditions: Fire Propagation Apparatus (FPA)
 Although Mass and Temperature were measured simultaneously during experiments, measurement data presented here are separated into two files because they were recorded at different frequencies.
@@ -66,7 +77,7 @@ Although Mass and Temperature were measured simultaneously during experiments, m
 ###### Test Heating Conditions  
 |Test Name | Heat Flux (kW/m2)| Heater Temperature (K) 
 |----------|:------:| :---: |
-|GIDAZE+_FPA_25_1| 25 | ? |
-|GIDAZE+_FPA_25_2| 25 | ? |
-|GIDAZE+_FPA_65_1| 65 | ? |
-|GIDAZE+_FPA_65_2| 65 | ? |
+|GIDAZE+_FPA_25kW_1| 25 | ? |
+|GIDAZE+_FPA_25kW_2| 25 | ? |
+|GIDAZE+_FPA_65kW_1| 65 | ? |
+|GIDAZE+_FPA_65kW_2| 65 | ? |

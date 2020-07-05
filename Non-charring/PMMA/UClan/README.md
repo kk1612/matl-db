@@ -4,20 +4,32 @@
 [Number of tests // instrument used (manufacturer // STA or TGA and DSC separately) ?]
 * Heating Rate: 10 K/min
 * Temperature program
-  - Initial temperature 300 K
-  - Isotherm: None
-  - Maximum Temperature 973 K
+  - Initial Temperature: 300 K
+  - Initial Isotherm: None
+  - Maximum Temperature: 973 K
+  - Final Isotherm: None
 * Sample mass: 2-6 mg
 * Sample geometry: powdered
-* Calibration 
-  - Method of temperature calibration: Onset temperature, 5 calibration points
-  - Temperature range of the calibration Indium - 100-200C, Zinc - 360-480C
-  - Frequency of calibration: Known samples run every three months, full calibration only then performed if these are out of tolerance. Otherwise yearly or after maintenance and/or config change
-* Crucible type: Alumina, 150 µl.
-* Carrier Gas: Nitrogen, 40 ml/min
+* Calibration: Method of temperature calibration: Onset temperature, 5 calibration points; Temperature range of the calibration Indium - 100-200C, Zinc - 360-480C; Frequency of calibration: Known samples run every three months, full calibration only then performed if these are out of tolerance. Otherwise yearly or after maintenance and/or config change
+* Crucible
+  - Type: Alumina
+  - Volume: 150 ÂµL
+  - Diameter: None
+  - Mass: None
+  - Lid: None
+  - Note: None
+* Carrier Gas
+  - Type: Nitrogen
+  - Flow rate: 40 ml/min
+  - Note: None
+* Instrument
+  - Type: None [?]
+  - Note: None
 
 
 ### Experimental Conditions: Cone Calorimeter
+Note: Cone HRR data was provided as HRR [kW] as originally requested. This dataset was then scaled to provide [kW/m2] assuming a sample surface area of 0.0088m2 (standard for cone calorimeter tests with a sample holder cover)
+Additionally, back surface temperature measurements were originally output at 2Hz, they have been linearaly interpolated here to provide estimates of Temperature at 1Hz.
 [Type of cone, open/closed, number of replicate tests?]
 * Extraction flow rate: [?]
 * Sample holder dimensions:
